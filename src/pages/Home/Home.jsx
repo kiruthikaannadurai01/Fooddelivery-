@@ -4,6 +4,7 @@ import './Home.css';
 import Header from '../../components/Header/Header';
 import ExploreMenu from '../../components/ExploreMenu/ExploreMenu';
 import FoodDisplay from '../../components/FoodDisplay/FoodDisplay';   // ✅ MISSING IMPORT ADDED
+import { AppDownload } from '../../components/AppDownload/AppDownload';
 
 export const Home = () => {
   const [category, setCategory] = useState("All");
@@ -13,6 +14,7 @@ export const Home = () => {
       <Header />
       <ExploreMenu category={category} setCategory={setCategory} />
       <FoodDisplay category={category} />
+      <AppDownload />
     </div>
   );
 }
