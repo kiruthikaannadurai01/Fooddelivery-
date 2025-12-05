@@ -12,3 +12,14 @@
     gap:30px;
     row-gap:50px;
 }
+@media (max-width: 900px) {
+  .food-display {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .food-display {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
