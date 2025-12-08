@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="footer" id="footer">
       <div className="footer-content">
 
-        {/* LEFT */}
+      
         <div className="footer-content-left">
           <img src={assets.logo} alt="" />
           <p>
@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* CENTER */}
+      
         <div className="footer-content-center">
           <h2>Company</h2>
           <ul>
@@ -35,7 +35,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* RIGHT */}
+      
         <div className="footer-content-right">
           <h2> GET IN TOUCH </h2>
           <ul>

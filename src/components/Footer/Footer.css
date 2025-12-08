@@ -52,7 +52,20 @@
     gap:35px;
   }
   .footer-copyright{
-    align-items: center;
     text-align: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .footer {
+    padding: 30px 4vw;
+  }
+  .footer-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .footer-social-icons img{
+    width: 32px;
   }
 }

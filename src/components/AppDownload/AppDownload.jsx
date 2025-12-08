@@ -7,7 +7,7 @@ export const AppDownload = () => {
     <div className='app-download' id='app-download'>
 
       <div className="app-download-text">
-        <h1>For Better Experience Download</h1>
+        <h2>For Better Experience Download</h2>
         <h1>Tomato App</h1>
       </div>
 

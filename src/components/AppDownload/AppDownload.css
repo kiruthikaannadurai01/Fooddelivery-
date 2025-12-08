@@ -1,9 +1,9 @@
 .app-download{
      margin : auto auto;
      margin-top :100px;
-     font-size:max(3w,20px);
-    text-align:center;
-    font-weight:100px;
+    font-size: max(3vw, 20px);
+    text-align: center;
+    font-weight: 100;
 }
 .app-download-platforms{
     display:flex;
@@ -12,5 +12,15 @@
     margin-top: 40px;
 }
 .app-download-platforms img:hover{
-     transform:scale(1.0s);
+    transform: scale(1.05);
+}
+
+
+.app-download img{ max-width: 100%; height: auto; display: inline-block; }
+@media (max-width: 900px){
+  .app-download{ margin-top: 60px; font-size: 18px; }
+  .app-download-platforms{ gap: 12px; }
+}
+@media (max-width: 600px){
+  .app-download-platforms{ flex-direction: column; gap: 10px; align-items: center; }
 }
